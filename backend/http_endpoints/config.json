@@ -167,5 +167,27 @@
     "sql_file": "sql/GET-appointments.sql",
     "type": "sql_endpoint",
     "return_type": "json"
+  },
+  {
+    "name": "/services",
+    "description": "",
+    "method": "GET",
+    "endpoint": "/services",
+    "data_source": {
+      "cluster_id": 10461598536530968245
+    },
+    "params": [],
+    "settings": {
+      "timeout": 30000,
+      "row_limit": 1000,
+      "cache_enabled": 0,
+      "cache_ttl": 0,
+      "enable_pagination": 0
+    },
+    "tag": "Default",
+    "batch_operation": 0,
+    "sql_file": "sql/GET-services.sql",
+    "type": "sql_endpoint",
+    "return_type": "json"
   }
 ]
